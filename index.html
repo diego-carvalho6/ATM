@@ -9,13 +9,18 @@
   </head>
   <body>
     <div class="box">
+      <div class="boxOfNotes" id="numberOfNotes">
+        <h2>Notas disponiveis:</h2>
+      </div>
+      <div class="balanceBox"><p id="actualBalance"></p></div>
       <input
         id="inputValue"
         class="input"
         type="number"
         placeholder="Digite o valor para saque"
       />
-      <button id="submit">button</button>
+      <button class="submitButton" id="submit">Sacar</button>
+      <div class="responseBox"><p id="returnResponse"></p></div>
     </div>
   </body>
   <script src="script.js"></script>
